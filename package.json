@@ -1,0 +1,21 @@
+{
+  "name": "oreole",
+  "displayName": "Oreole",
+  "description": "Color of An Lingrong",
+  "version": "0.0.1",
+  "engines": {
+    "vscode": "^1.101.0"
+  },
+  "categories": [
+    "Themes"
+  ],
+  "contributes": {
+    "themes": [
+      {
+        "label": "Oreole",
+        "uiTheme": "vs",
+        "path": "./themes/Oreole-color-theme.json"
+      }
+    ]
+  }
+}
