@@ -4,7 +4,7 @@ Eye-friendly light color theme for vscode, mimicking the makeup of An Lingrong (
 
 ## Demo
 
-![Demo](./screenshot.png)
+![Demo](images/screenshot.png)
 
 `some inline code`
 
