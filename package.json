@@ -1,7 +1,7 @@
 {
-  "name": "oreole",
-  "displayName": "Oreole",
-  "description": "Color of An Lingrong",
+  "name": "oriole",
+  "displayName": "Oriole",
+  "description": "Eye-friendly light color theme for vscode, mimicking the makeup of An Lingrong (called Consort Oriole in her last episodes) from the Chinese drama 'Empresses in the Palace'.",
   "version": "0.0.1",
   "engines": {
     "vscode": "^1.101.0"
@@ -12,9 +12,9 @@
   "contributes": {
     "themes": [
       {
-        "label": "Oreole",
+        "label": "Oriole",
         "uiTheme": "vs",
-        "path": "./themes/Oreole-color-theme.json"
+        "path": "./themes/Oriole-color-theme.json"
       }
     ]
   }

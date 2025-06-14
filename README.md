@@ -1,16 +1,30 @@
-# oreole README
+# Oriole color theme
 
-## Working with Markdown
+Eye-friendly light color theme for vscode, mimicking the makeup of An Lingrong (called Consort Oriole in her last episodes) from the Chinese drama 'Empresses in the Palace'.
 
-You can author your README using Visual Studio Code. Here are some useful editor keyboard shortcuts:
+## Demo
 
-* Split the editor (`Cmd+\` on macOS or `Ctrl+\` on Windows and Linux).
-* Toggle preview (`Shift+Cmd+V` on macOS or `Shift+Ctrl+V` on Windows and Linux).
-* Press `Ctrl+Space` (Windows, Linux, macOS) to see a list of Markdown snippets.
+![Demo](./screenshot.png)
 
-## For more information
+`some inline code`
 
-* [Visual Studio Code's Markdown Support](http://code.visualstudio.com/docs/languages/markdown)
-* [Markdown Syntax Reference](https://help.github.com/articles/markdown-basics/)
+- [ ] list item 1
+- [x] list item 2
 
-**Enjoy!**
+``` python
+def hello_world():
+    print("Hello, world!")
+```
+
+$$
+\begin{aligned}
+
+    x^2 &= 4 \\
+    \hat H | \Psi \rangle &= E | \Psi \rangle \\
+
+\end{aligned}
+$$
+
+
+<br>
+<br>

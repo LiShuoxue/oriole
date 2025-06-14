@@ -1,42 +1,29 @@
 import numpy as np
-from easyemb.fundcls import SpinType, Dict4Data, get_standard_repr, WARN_CHAR
+from scipy import linalg as la
 
 DEFAULT_CONST = 2.0
 something = np.array([1, 2, 3])
-
-class MyError(Exception):
-    """"""
-
-f = lambda x: x + 1
+def some_function(x): return x + 1
+def other_function(x): return tuple(map(lambda t: t + 1, x))
 
 class MyClass:
-    rf"""
-    This is a test class to debug the color theme.
-    $\hat H | \Psi \rangle = | \Psi \rangle $
-
-    {DEFAULT_CONST:.2f}
-    """
-    def __init__(self, spin_type:SpinType) -> None:
+    rf"""This is a test of regex docstring
+    $\hat H | \Psi \rangle = | \Psi \rangle $"""
+    def __init__(self, param:np.ndarray) -> None:
         """
         This is a test of the docstring.
         https://code.visualstudio.com/api/extension-guides/color-theme
         """
         # This is a test of the inline comment.
-        self.spin_type = spin_type
-        self.a = 3
+        new_var = int(True)
+        self.param = param + new_var
         assert isinstance(2, int), "Test of string."
-        print(
-            (
-                (1, 2), (
-                    (3, 4), (5, 6)
-                )
-            )
-        )
-        return
 
-    def get_repr(self) -> str:
-        return get_standard_repr(self.spin_type)
+    def test_function(self) -> str:
+        print("sth. {:.2f}".format(la.norm(some_function(self.param))))
+        print(f"sth{DEFAULT_CONST:12.2e}")
+        raise ValueError("This is a test of the exception.")
 
 if __name__ == "__main__":
-    my_instance = MyClass(SpinType.SZ)
-    print(my_instance.get_repr())  # Should print the standard representation for SpinType.SZ
+    my_instance = MyClass(np.arange(16).reshape(4, 4))
+    print(my_instance.test_function())

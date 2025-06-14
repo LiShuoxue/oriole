@@ -1,5 +1,5 @@
 {
-	"name": "Oreole",
+	"name": "Oriole",
 	"colors": {
 		"foreground": "#5f4478",
 		"scrollbarSlider.background": "#5f4478",
@@ -222,7 +222,9 @@
 		},
 		{
 			"name": "Strings: Regular Expressions",
-			"scope": "string.regexp",
+			"scope": ["string.regexp",
+			
+		],
 			"settings": {
 				"foreground": "#4B83CD"
 			}
