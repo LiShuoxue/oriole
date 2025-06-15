@@ -7,26 +7,3 @@ Modified from built-in `Quiet Light` theme.
 ## Demo
 
 ![Demo](https://github.com/LiShuoxue/oriole/blob/main/images/screenshot.png?raw=true)
-
-`some inline code`
-
-- [ ] list item 1
-- [x] list item 2
-
-``` python
-def hello_world():
-    print("Hello, world!")
-```
-
-$$
-\begin{aligned}
-
-    x^2 &= 4 \\
-    \hat H | \Psi \rangle &= E | \Psi \rangle \\
-
-\end{aligned}
-$$
-
-
-<br>
-<br>
